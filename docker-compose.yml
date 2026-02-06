@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - GAWAIN_API_BASE=${GAWAIN_API_BASE:-https://api.gawain.example.com}
+      - GAWAIN_API_KEY=${GAWAIN_API_KEY:-your_api_key_here}
+      - GAWAIN_APP_ID=${GAWAIN_APP_ID:-}
+      - KINOSUKE_UPGRADE_URL=${KINOSUKE_UPGRADE_URL:-https://kinosuke.example.com/upgrade}
+    volumes:
+      # Persist install_id across runs
+      - ./.local:/app/.local
+      # Mount samples for easy testing
+      - ./samples:/app/samples:ro

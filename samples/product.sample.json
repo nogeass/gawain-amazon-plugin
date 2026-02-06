@@ -1,0 +1,83 @@
+{
+  "asin": "B0DCPKM21Y",
+  "title": "Premium Wireless Headphones with Active Noise Cancellation",
+  "brand": "AudioTech",
+  "bullet_points": [
+    "40-hour battery life with quick charge support",
+    "Advanced Active Noise Cancellation technology",
+    "Comfortable over-ear design with memory foam cushions",
+    "Hi-Res Audio certified for studio-quality sound",
+    "Multi-device connectivity via Bluetooth 5.3"
+  ],
+  "description": "Experience crystal-clear sound with our premium wireless headphones. Featuring advanced active noise cancellation, 40-hour battery life, and comfortable over-ear design. Perfect for music lovers, commuters, and professionals who demand the best audio quality.",
+  "images": [
+    {
+      "url": "https://example.com/images/headphones-main.jpg",
+      "variant": "MAIN",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "url": "https://example.com/images/headphones-side.jpg",
+      "variant": "PT01",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "url": "https://example.com/images/headphones-case.jpg",
+      "variant": "PT02",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "url": "https://example.com/images/headphones-wearing.jpg",
+      "variant": "PT03",
+      "width": 1500,
+      "height": 1500
+    }
+  ],
+  "price": {
+    "amount": "29800",
+    "currency": "JPY"
+  },
+  "variations": [
+    {
+      "asin": "B0DCPKM21Y",
+      "title": "Black",
+      "dimension": "color_name",
+      "price": {
+        "amount": "29800",
+        "currency": "JPY"
+      },
+      "availability": "in_stock"
+    },
+    {
+      "asin": "B0DCPKM22Z",
+      "title": "White",
+      "dimension": "color_name",
+      "price": {
+        "amount": "29800",
+        "currency": "JPY"
+      },
+      "availability": "in_stock"
+    },
+    {
+      "asin": "B0DCPKM23A",
+      "title": "Navy Blue",
+      "dimension": "color_name",
+      "price": {
+        "amount": "31800",
+        "currency": "JPY"
+      },
+      "availability": "limited"
+    }
+  ],
+  "category": "Electronics > Headphones",
+  "features": {
+    "battery_life": "40 hours",
+    "connectivity": "Bluetooth 5.3",
+    "noise_cancellation": "Active",
+    "driver_size": "40mm",
+    "weight": "250g"
+  }
+}
