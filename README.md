@@ -168,7 +168,7 @@ For production use:
 
 ## License
 
-Licensed under GNU AGPL v3.0. See [LICENSE](./LICENSE).
+MIT - see [LICENSE](./LICENSE)
 
 ## Support
 
